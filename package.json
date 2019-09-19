@@ -1,0 +1,37 @@
+{
+  "name": "eslint-plugin-design-system",
+  "version": "1.0.0",
+  "description": "ESLint rules for enforcing design systems",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "design-system"
+  ],
+  "author": "Rafael Mendiola <dslounge@gmail.com>",
+  "repository": "dslounge/eslint-plugin-design-system",
+  "main": "dist/lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir dist --ignore 'src/**/*.test.js'"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-json": "^1.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "lodash.get": "^4.4.2",
+    "prettier": "^1.18.2"
+  },
+  "peerDependencies": {
+    "eslint": "5.16.0"
+  },
+  "license": "MIT"
+}
