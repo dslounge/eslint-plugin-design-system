@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-design-system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint rules for enforcing design systems",
   "keywords": [
     "eslint",
@@ -27,11 +27,13 @@
     "eslint-plugin-json": "^1.4.0",
     "eslint-plugin-prettier": "^3.1.1",
     "jest": "^24.9.0",
-    "lodash.get": "^4.4.2",
     "prettier": "^1.18.2"
   },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  },
   "peerDependencies": {
-    "eslint": "5.16.0"
+    "eslint": "^5.16.0"
   },
   "license": "MIT"
 }
